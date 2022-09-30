@@ -1,0 +1,15 @@
+/*Google Fonts- Loster Two, Poppins, and Ubuntu */
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Poppins&family=Ubuntu&display=swap');
+/* Whole page */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: rgb(128, 239, 202);
+}
+/* Homepage Header */
+img{
+    width: 60px;
+    border-radius: 200%;
+}
