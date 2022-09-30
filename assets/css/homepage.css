@@ -32,7 +32,19 @@ img{
 /* Login form  */
 .login-container{
     left: 50%;
-    top: 50%;
+    top: 40%;
     position: absolute;
     transform: translate(-50%, -50%);
+    text-align: center;
+}
+.login-container .login-text1{
+    font-size: 70px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.login-container .login-text2{
+    font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.login-container .login-form{
+
 }
