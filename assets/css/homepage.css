@@ -9,6 +9,16 @@
     background-color: rgb(128, 239, 202);
 }
 /* Homepage Header */
+header .container{
+    margin: 10px;
+    font-family: 'Lobster Two', cursive;
+    display: flex;
+   
+}
+header .companyname{
+    padding: 15px;
+   
+}
 img{
     width: 60px;
     border-radius: 200%;
