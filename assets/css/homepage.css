@@ -11,6 +11,9 @@ font-family: 'Ubuntu', sans-serif; */
     text-decoration: none;
     background-color: rgb(128, 239, 202);
 }
+/* body{
+    display: flex;
+} */
 /* Homepage Header */
 header .container{
     margin: 10px;
@@ -26,4 +29,10 @@ img{
     width: 60px;
     border-radius: 200%;
 }
-
+/* Login form  */
+.login-container{
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
