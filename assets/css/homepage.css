@@ -1,4 +1,7 @@
 /*Google Fonts- Loster Two, Poppins, and Ubuntu */
+/* font-family: 'Lobster Two', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Poppins&family=Ubuntu&display=swap');
 /* Whole page */
 *{
@@ -22,4 +25,13 @@ header .companyname{
 img{
     width: 60px;
     border-radius: 200%;
+}
+/* welcome sign */
+.intro{
+    text-align: center;
+    margin-top: 15%;
+}
+.sign{
+    font-size: 100px;
+    font-family:'Poppins', sans-serif;;
 }
