@@ -26,12 +26,4 @@ img{
     width: 60px;
     border-radius: 200%;
 }
-/* welcome sign */
-.intro{
-    text-align: center;
-    margin-top: 15%;
-}
-.sign{
-    font-size: 100px;
-    font-family:'Poppins', sans-serif;;
-}
+
