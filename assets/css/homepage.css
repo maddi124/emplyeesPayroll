@@ -46,5 +46,28 @@ img{
     font-family: 'Ubuntu', sans-serif;
 }
 .login-container .login-form{
+    margin: 5px;
+    padding: 5px;
+}
+.login-container .login-form input{
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 20px;
 
+}
+.login-container .login-form input:hover{
+    font-weight: bold;
+    font-size: 25px;
+}
+.login-container .login-form .employee-ID {
+    padding: 5px;
+    
+}
+.login-container .login-form .employee-password {
+    padding: 5px;
+}
+.login-container .login-form button{
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
 }
