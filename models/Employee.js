@@ -1,8 +1,8 @@
 const { Model, DataTypes } = require("sequelize");
-const { Employee } = require(".");
+const bcrypt = require('bcrypt');
 const sequelize = require("../config/connection");
 
-
+class Employee extends Model {}
 Employee.init(
     {
         id:{
@@ -31,6 +31,29 @@ Employee.init(
             len: [8]
             }
         },
-
+        hooks: {
+            async beforeCreate(newEmployeeData) {
+              newEmployeeData.password = await bcrypt.hash(
+                newEmployeeData.password,
+                10
+              );
+              return newEmployeeData;
+            },
+      
+            async beforeUpdate(updatedEmployeeData) {
+              updatedEmployeeData.password = await bcrypt.hash(
+                updatedEmployeeData.password,
+                10
+              );
+              return updatedEmployeeData;
+            },
+          },
+          sequelize,
+          timestamps: false,
+          freezeTableName: true,
+          underscored: true,
+          modelName: "employee",
     }
-)
+);
+
+module.exports = Employee;
