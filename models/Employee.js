@@ -13,12 +13,16 @@ Employee.init(
         },
         first_name:{
             type:DataTypes.STRING,
+            allowNull: false,
         },
         last_name:{
             type:DataTypes.STRING,
+            allowNull: false,
         },
         employee_id:{
             type:DataTypes.INTEGER,
+            allowNull: false,
+            unique: true,
         },
         password:{
             type: DataTypes.STRING,
