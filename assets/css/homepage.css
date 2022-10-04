@@ -1,0 +1,79 @@
+/*Google Fonts- Loster Two, Poppins, and Ubuntu */
+/* font-family: 'Lobster Two', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Poppins&family=Ubuntu&display=swap');
+/* Whole page */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: rgb(128, 239, 202);
+}
+/* body{
+    display: flex;
+} */
+/* Homepage Header */
+header .container{
+    margin: 10px;
+    font-family: 'Lobster Two', cursive;
+    display: flex;
+   
+}
+header .companyname{
+    padding: 15px;
+   
+}
+img{
+    width: 60px;
+    border-radius: 200%;
+}
+/* Login form  */
+.login-container{
+    left: 50%;
+    top: 40%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.login-container .login-text1{
+    font-size: 70px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.login-container .login-text2{
+    font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.login-container .login-form{
+    margin: 5px;
+    padding: 5px;
+}
+.login-container .login-form input{
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+.login-container .login-form input:hover{
+    font-weight: bold;
+    font-size: 25px;
+}
+.login-container .login-form .employee-ID {
+    padding: 5px;
+    
+}
+.login-container .login-form .employee-password {
+    padding: 5px;
+}
+.login-container .login-form button{
+    background-color: #fff;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.login-container .login-form button:hover{
+    font-size: 25px;
+}
