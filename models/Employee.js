@@ -19,6 +19,22 @@ Employee.init(
             type:DataTypes.STRING,
             allowNull: false,
         },
+        address: {
+          type: Sequelize.STRING,
+          allowNull:false,
+        },
+        houseNumber: {
+          type: Sequelize.INTEGER,
+          allowNull:false,
+        },
+        zipcode: {
+          type: Sequelize.STRING,
+          allowNull:false,
+        },
+        city: {
+          type: Sequelize.STRING,
+          allowNull:false,
+        },
         employee_id:{
             type:DataTypes.INTEGER,
             allowNull: false,
