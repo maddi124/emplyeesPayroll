@@ -16,13 +16,10 @@ Manager.init(
       allowNull: false,
       autoIncrement: true,
     },
-    email: {
-      type: DataTypes.STRING,
+    ManagerID: {
+      type:DataTypes.INTEGER,
       allowNull: false,
       unique: true,
-      validate: {
-        isEmail: true,
-      },
     },
     password: {
       type: DataTypes.STRING,

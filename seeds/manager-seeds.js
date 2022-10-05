@@ -2,7 +2,7 @@ const { Manager } = require("../models");
 
 const managerData = [
     {
-        email:"jp@gmail.com",
+        ManagerID:"8787",
         password:"password123",
 
     },
